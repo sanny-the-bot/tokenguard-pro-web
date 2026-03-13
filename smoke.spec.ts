@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const DEPLOYMENT_URL = 'https://tokenguard-pro-web.vercel.app';
+const DEPLOYMENT_URL = 'https://workspace-oaiihxnuk-sanny-s-projects-eee162c6.vercel.app';
 
 test('TokenGuard Pro smoke test', async ({ page }) => {
   // Navigate to the deployed site
