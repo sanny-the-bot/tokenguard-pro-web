@@ -46,6 +46,19 @@ export default function Home() {
           <p className="text-xl text-slate-300 mb-8">
             Get actionable insights to save <span className="text-emerald-400 font-bold">$300-2,000/month</span>
           </p>
+
+          {/* Primary CTA Button */}
+          <div className="mb-8">
+            <a
+              href="https://buy.stripe.com/tokenguard-pro-placeholder"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-700 hover:to-emerald-600 text-white font-bold text-xl py-4 px-10 rounded-lg shadow-lg hover:shadow-emerald-500/50 transition-all duration-300 transform hover:scale-105"
+            >
+              🚀 Start Saving $300+/Month — $49 One-Time
+            </a>
+          </div>
+
           <div className="flex items-center justify-center gap-2 mb-8">
             <FileText className="w-6 h-6 text-slate-400" />
             <p className="text-slate-400">
