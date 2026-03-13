@@ -1,0 +1,27 @@
+{
+  "status": "deployed",
+  "deployment": {
+    "url": "https://tokenguard-pro-web.vercel.app",
+    "vercelUrl": "https://tokenguard-pro-1nnhm89aa-sanny-s-projects-eee162c6.vercel.app",
+    "timestamp": "2026-03-13T06:05:00Z",
+    "commit": "c4a1e0a"
+  },
+  "smokeTest": {
+    "status": "passed",
+    "timestamp": "2026-03-13T06:07:00Z",
+    "tests": [
+      {
+        "name": "TokenGuard Pro smoke test",
+        "status": "passed",
+        "duration": "933ms"
+      }
+    ],
+    "total": 1,
+    "passed": 1,
+    "failed": 0
+  },
+  "repository": {
+    "url": "https://github.com/sanny-the-bot/tokenguard-pro-web.git",
+    "branch": "master"
+  }
+}
