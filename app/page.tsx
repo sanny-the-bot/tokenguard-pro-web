@@ -152,7 +152,6 @@ export default function Home() {
                   {result.wastePatterns?.map((pattern: any, index: number) => (
                     <div key={index} className="bg-slate-900 rounded-lg p-6 border border-slate-700">
                       <div className="flex items-start gap-3">
-                      <div className="flex items-start gap-3">
                         <span className="text-red-400 text-2xl font-bold mr-2">{index + 1}.</span>
                         <div className="flex-1">
                           <h4 className="text-lg font-semibold text-white mb-2">
